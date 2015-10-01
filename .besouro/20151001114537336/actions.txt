@@ -124,3 +124,13 @@ EditAction 1443693111878 TestSudokuVerifier.java 2169 7 23 5
 UnitTestCaseAction 1443693114578 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443693114579 TestSudokuVerifier OK
 EditAction 1443693176910 SudokuVerifier.java 694 2 4 0
+UnitTestCaseAction 1443693178258 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443693178258 TestSudokuVerifier OK
+UnitTestCaseAction 1443693186645 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443693186645 TestSudokuVerifier OK
+RefactoringAction 1443693292784 TestSudokuVerifier.java ADD void testStringContainsOnlyPositiveDigits()/2 METHOD
+RefactoringAction 1443693303308 TestSudokuVerifier.java RENAME testStringContainsOnlyPositiveDigits()/2=>void testStringRowContainsOnlyPositiveDigits() METHOD
+RefactoringAction 1443693312329 TestSudokuVerifier.java RENAME testStringRowContainsOnlyPositiveDigits()=>void testStringRowContainsOnlyDigits() METHOD
+RefactoringAction 1443693314348 TestSudokuVerifier.java RENAME testStringRowContainsOnlyDigits()=>void testStringRowContainsOnlyUniDigits() METHOD
+RefactoringAction 1443693316363 TestSudokuVerifier.java RENAME testStringRowContainsOnlyUniDigits()=>void testStringRowContainsOnlyUniqueDigits() METHOD
+EditAction 1443693371309 TestSudokuVerifier.java 2487 8 27 6
