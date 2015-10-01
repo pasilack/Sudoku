@@ -16,3 +16,6 @@ RefactoringAction 1443690162424 TestSudokuVerifier.java RENAME import org.junit.
 RefactoringAction 1443690164441 TestSudokuVerifier.java REMOVE import org.junit.Assert.ass IMPORT
 RefactoringAction 1443690165453 TestSudokuVerifier.java ADD import org.junit.Assert.* IMPORT
 EditAction 1443690171848 TestSudokuVerifier.java 329 1 1 0
+UnitTestCaseAction 1443690366092 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443690366092 TestSudokuVerifier OK
+EditAction 1443690392686 SudokuVerifier.java 198 1 1 0
