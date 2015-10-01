@@ -33,7 +33,6 @@ public class TestSudokuVerifier {
 		}
 		catch (Exception e) {
 			thrown = true;	
-			e.printStackTrace();
 		}
 		
 		assertEquals(true, thrown);
@@ -48,7 +47,6 @@ public class TestSudokuVerifier {
 		}
 		catch (Exception e) {
 			thrown = true;	
-			e.printStackTrace();
 		}
 		
 		assertEquals(true, thrown);
