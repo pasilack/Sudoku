@@ -113,3 +113,4 @@ EditAction 1443692907703 SudokuVerifier.java 686 2 4 0
 UnitTestCaseAction 1443692909202 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443692909202 TestSudokuVerifier OK
 EditAction 1443692924656 SudokuVerifier.java 682 2 4 0
+EditAction 1443693053848 TestSudokuVerifier.java 1852 6 19 4
