@@ -208,3 +208,4 @@ UnitTestSessionAction 1443696694238 TestSudokuVerifier OK
 RefactoringAction 1443696806985 SudokuVerifier.java RENAME compare(int, int)=>boolean compareRow(int, int) METHOD
 EditAction 1443696874242 SudokuVerifier.java 1193 3 9 0
 EditAction 1443697070938 TestSudokuVerifier.java 2487 8 27 6
+EditAction 1443697341824 TestSudokuVerifier.java 2495 8 27 6
