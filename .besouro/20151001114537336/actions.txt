@@ -160,3 +160,6 @@ RefactoringAction 1443695872096 SudokuVerifier.java RENAME compare(char, int)=>b
 RefactoringAction 1443695912729 SudokuVerifier.java ADD string candidateSolution FIELD
 RefactoringAction 1443695930274 SudokuVerifier.java RENAME candidateSolution=>String cS FIELD
 EditAction 1443696070744 SudokuVerifier.java 1035 3 9 0
+UnitTestCaseAction 1443696072730 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443696072730 TestSudokuVerifier FAIL
+EditAction 1443696265156 SudokuVerifier.java 1052 3 9 0

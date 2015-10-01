@@ -19,12 +19,14 @@ public class SudokuVerifier {
 				return -1;
 			}
 		}
+		
 		int index = 1;
 		for(int i = 0; i<80; i++) {
 			
 			if(compare(i ,index)) {
 				return -3;
 			}
+			index++;
 		}
 		return 1;
 	}
