@@ -66,3 +66,16 @@ EditAction 1443691613263 TestSudokuVerifier.java 1259 4 11 2
 UnitTestCaseAction 1443691613598 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443691613599 TestSudokuVerifier OK
 EditAction 1443691623638 TestSudokuVerifier.java 1209 4 11 2
+UnitTestCaseAction 1443691624050 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443691624051 TestSudokuVerifier OK
+RefactoringAction 1443691784035 TestSudokuVerifier.java ADD void testVerifyStringLength80Characters()/2 METHOD
+RefactoringAction 1443691813052 TestSudokuVerifier.java RENAME testVerifyStringLength80Characters()/2=>void testAll() METHOD
+RefactoringAction 1443691816070 TestSudokuVerifier.java RENAME testAll()=>void testAllCharacte() METHOD
+RefactoringAction 1443691822089 TestSudokuVerifier.java RENAME testAllCharacte()=>void testString() METHOD
+RefactoringAction 1443691825107 TestSudokuVerifier.java RENAME testString()=>void testStringHasNo() METHOD
+RefactoringAction 1443691827127 TestSudokuVerifier.java RENAME testStringHasNo()=>void testStringHasNoEmpt() METHOD
+RefactoringAction 1443691828645 TestSudokuVerifier.java RENAME testStringHasNoEmpt()=>void testStringHasNoEmpty() METHOD
+RefactoringAction 1443691830165 TestSudokuVerifier.java RENAME testStringHasNoEmpty()=>void testStringHasNoEmptySpaces() METHOD
+RefactoringAction 1443691882336 TestSudokuVerifier.java ADD String characters81 FIELD
+RefactoringAction 1443691911920 TestSudokuVerifier.java REMOVE characters81 FIELD
+EditAction 1443691958618 TestSudokuVerifier.java 1560 5 15 3
