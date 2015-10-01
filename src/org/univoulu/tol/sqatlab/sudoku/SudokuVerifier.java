@@ -11,11 +11,6 @@ public class SudokuVerifier {
 			throw new LengthException("Solution string is too long");
 		} 
 		
-		for(char c : candidateSolution.toCharArray()) {
-			if(c == ' ') {
-				return -1;
-			}
-		}
 		
 		for(char c : candidateSolution.toCharArray()) {
 			if(!Character.isDigit(c)) {
