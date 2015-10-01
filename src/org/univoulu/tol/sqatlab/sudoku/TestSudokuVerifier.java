@@ -37,5 +37,19 @@ public class TestSudokuVerifier {
 		
 		assertEquals(true, thrown);
 	}
+	
+	@Test
+	public void testVerifyStringLength80Characters() {
+		String characters82 = "17369825632158947958724316825437169791586432346912758289643571573291684164875293"; 
+		boolean thrown = false;
+		try {
+			sV.verify(characters82);
+		}
+		catch (Exception e) {
+			thrown = true;						
+		}
+		
+		assertEquals(true, thrown);
+	}
 
 }
