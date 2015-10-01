@@ -8,7 +8,7 @@ public class SudokuVerifier {
 			throw new LengthException("Solution string is too long");
 		} 
 		else if (candidateSolution.length() < 81) {
-			throw new LengthException("Solution string is too long");
+			throw new LengthException("Solution string is too short");
 		} 
 		
 		for(char c : candidateSolution.toCharArray()) {
@@ -17,6 +17,41 @@ public class SudokuVerifier {
 			}
 		}
 		
+		for(int i = 0; i<72; i += 9) {
+			
+			if(candidateSolution.charAt(i) == candidateSolution.charAt(i+1)) {
+				return -3;
+			}
+			
+			if(candidateSolution.charAt(i) == candidateSolution.charAt(i+2)) {
+				return -3;
+			}
+			
+			if(candidateSolution.charAt(i) == candidateSolution.charAt(i+3)) {
+				return -3;
+			}
+			
+			if(candidateSolution.charAt(i) == candidateSolution.charAt(i+4)) {
+				return -3;
+			}
+			
+			if(candidateSolution.charAt(i) == candidateSolution.charAt(i+5)) {
+				return -3;
+			}
+			
+			if(candidateSolution.charAt(i) == candidateSolution.charAt(i+6)) {
+				return -3;
+			}
+			
+			if(candidateSolution.charAt(i) == candidateSolution.charAt(i+7)) {
+				return -3;
+			}
+			
+			if(candidateSolution.charAt(i) == candidateSolution.charAt(i+8)) {
+				return -3;
+			}
+			
+		}
 		return 1;
 	}
 }

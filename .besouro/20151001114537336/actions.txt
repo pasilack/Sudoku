@@ -134,3 +134,6 @@ RefactoringAction 1443693312329 TestSudokuVerifier.java RENAME testStringRowCont
 RefactoringAction 1443693314348 TestSudokuVerifier.java RENAME testStringRowContainsOnlyDigits()=>void testStringRowContainsOnlyUniDigits() METHOD
 RefactoringAction 1443693316363 TestSudokuVerifier.java RENAME testStringRowContainsOnlyUniDigits()=>void testStringRowContainsOnlyUniqueDigits() METHOD
 EditAction 1443693371309 TestSudokuVerifier.java 2487 8 27 6
+UnitTestCaseAction 1443693374405 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443693374405 TestSudokuVerifier FAIL
+EditAction 1443694879620 SudokuVerifier.java 1523 2 5 0
