@@ -12,7 +12,7 @@ public class SudokuVerifier {
 		} 
 		
 		for(char c : candidateSolution.toCharArray()) {
-			if(!Character.isDigit(c)) {
+			if(!Character.isDigit(c) || c == '-') {
 				return -1;
 			}
 		}
