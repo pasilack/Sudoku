@@ -88,3 +88,12 @@ EditAction 1443692422054 SudokuVerifier.java 669 2 4 0
 UnitTestCaseAction 1443692422399 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443692422399 TestSudokuVerifier OK
 EditAction 1443692445078 SudokuVerifier.java 670 2 4 0
+UnitTestCaseAction 1443692474901 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443692474901 TestSudokuVerifier OK
+RefactoringAction 1443692579467 TestSudokuVerifier.java ADD void test FIELD
+RefactoringAction 1443692580985 TestSudokuVerifier.java RENAME test=>void testC FIELD
+RefactoringAction 1443692585003 TestSudokuVerifier.java RENAME testC=>void testString FIELD
+RefactoringAction 1443692587521 TestSudokuVerifier.java RENAME testString=>void testStringCont FIELD
+RefactoringAction 1443692590539 TestSudokuVerifier.java RENAME testStringCont=>void testStringContainsDigits FIELD
+RefactoringAction 1443692592557 TestSudokuVerifier.java RENAME testStringContainsDigits=>void testStringContainsDigits() METHOD
+EditAction 1443692674179 TestSudokuVerifier.java 1852 6 19 4

@@ -42,6 +42,7 @@ public class TestSudokuVerifier {
 	public void testVerifyStringLength80Characters() {
 		String characters80 = "17369825632158947958724316825437169791586432346912758289643571573291684164875293"; 
 		boolean thrown = false;
+		
 		try {
 			sV.verify(characters80);
 		}
@@ -55,13 +56,26 @@ public class TestSudokuVerifier {
 	@Test
 	public void testStringHasNoEmptySpaces() {
 		String characters81emptyspaces = "4 736982563215894 95872431 825437169791586432346912758289643571573291684164875293"; 
-		boolean thrown = false;
 		int result = 0;
+		
 		try {
 			result = sV.verify(characters81emptyspaces);
 		}
 		catch (Exception e) {
-			thrown = true;	
+		}
+		
+		assertEquals(-1, result);
+	}
+	
+	@Test
+	public void testStringContainsDigits(){
+		String characters81 = "41736982563a158947958724316825437b697915864 2346912758289643571573291684164875293";
+		int result = 0;
+		
+		try {
+			result = sV.verify(characters81);
+		}
+		catch (Exception e) {
 		}
 		
 		assertEquals(-1, result);
