@@ -32,7 +32,8 @@ public class TestSudokuVerifier {
 			sV.verify(characters82);
 		}
 		catch (Exception e) {
-			thrown = true;						
+			thrown = true;	
+			e.printStackTrace();
 		}
 		
 		assertEquals(true, thrown);
@@ -46,7 +47,8 @@ public class TestSudokuVerifier {
 			sV.verify(characters80);
 		}
 		catch (Exception e) {
-			thrown = true;						
+			thrown = true;	
+			e.printStackTrace();
 		}
 		
 		assertEquals(true, thrown);
