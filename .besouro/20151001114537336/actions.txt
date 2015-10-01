@@ -28,3 +28,10 @@ RefactoringAction 1443690535625 TestSudokuVerifier.java ADD void init() METHOD
 RefactoringAction 1443690548265 TestSudokuVerifier.java ADD import org.junit.Before IMPORT
 RefactoringAction 1443690591726 TestSudokuVerifier.java ADD SudokuVerifier sV FIELD
 EditAction 1443690600299 TestSudokuVerifier.java 490 2 3 1
+UnitTestCaseAction 1443690600648 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443690600648 TestSudokuVerifier OK
+RefactoringAction 1443690614285 TestSudokuVerifier.java ADD void testVerifyStringLength81Characters()/2 METHOD
+RefactoringAction 1443690617297 TestSudokuVerifier.java RENAME testVerifyStringLength81Characters()/2=>void testVerifyStringLength82Characters() METHOD
+RefactoringAction 1443690779106 TestSudokuVerifier.java ADD void assertEquals() METHOD
+RefactoringAction 1443690785167 TestSudokuVerifier.java REMOVE assertEquals() METHOD
+EditAction 1443690871325 TestSudokuVerifier.java 828 3 7 2
