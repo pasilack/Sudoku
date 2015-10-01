@@ -21,6 +21,7 @@ public class SudokuVerifier {
 			if(!Character.isDigit(c)) {
 				return -1;
 			}
+		}
 		
 		return 1;
 	}
@@ -33,5 +34,4 @@ class LengthException extends Exception {
 	public LengthException(String msg){
 	      super(msg);
 	   }
-	}
 }
