@@ -38,3 +38,16 @@ EditAction 1443690871325 TestSudokuVerifier.java 828 3 7 2
 UnitTestCaseAction 1443690871670 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443690871670 TestSudokuVerifier FAIL
 EditAction 1443691265167 SudokuVerifier.java 336 2 3 0
+CompilationAction 1443691265290 SudokuVerifier.java
+RefactoringAction 1443691265383 SudokuVerifier.java ADD long serialVersionUID FIELD
+RefactoringAction 1443691275501 SudokuVerifier.java REMOVE serialVersionUID FIELD
+RefactoringAction 1443691291526 SudokuVerifier.java RENAME MyOwnException(String)=>LengthException(String) METHOD
+RefactoringAction 1443691300624 SudokuVerifier.java ADD long serialVersionUID FIELD
+CompilationAction 1443691402204 SudokuVerifier.java
+CompilationAction 1443691402245 TestSudokuVerifier.java
+UnitTestCaseAction 1443691405529 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443691405529 TestSudokuVerifier FAIL
+CompilationAction 1443691464717 TestSudokuVerifier.java
+UnitTestCaseAction 1443691464952 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443691464952 TestSudokuVerifier FAIL
+EditAction 1443691499551 TestSudokuVerifier.java 881 3 7 1
