@@ -20,6 +20,7 @@ public class SudokuVerifier {
 		for(int i = 0; i<72; i += 9) {
 			
 			if(candidateSolution.charAt(i) == candidateSolution.charAt(i+1)) {
+				System.out.println(candidateSolution.charAt(i));
 				return -3;
 			}
 			
