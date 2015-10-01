@@ -17,42 +17,7 @@ public class SudokuVerifier {
 			}
 		}
 		
-		for(int i = 0; i<72; i += 9) {
-			
-			if(candidateSolution.charAt(i) == candidateSolution.charAt(i+1)) {
-				System.out.println(candidateSolution.charAt(i));
-				return -3;
-			}
-			
-			if(candidateSolution.charAt(i) == candidateSolution.charAt(i+2)) {
-				return -3;
-			}
-			
-			if(candidateSolution.charAt(i) == candidateSolution.charAt(i+3)) {
-				return -3;
-			}
-			
-			if(candidateSolution.charAt(i) == candidateSolution.charAt(i+4)) {
-				return -3;
-			}
-			
-			if(candidateSolution.charAt(i) == candidateSolution.charAt(i+5)) {
-				return -3;
-			}
-			
-			if(candidateSolution.charAt(i) == candidateSolution.charAt(i+6)) {
-				return -3;
-			}
-			
-			if(candidateSolution.charAt(i) == candidateSolution.charAt(i+7)) {
-				return -3;
-			}
-			
-			if(candidateSolution.charAt(i) == candidateSolution.charAt(i+8)) {
-				return -3;
-			}
-			
-		}
+		
 		return 1;
 	}
 }
