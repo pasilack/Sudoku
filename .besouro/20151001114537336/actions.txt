@@ -203,3 +203,7 @@ EditAction 1443696683024 TestSudokuVerifier.java 2487 8 27 6
 UnitTestCaseAction 1443696683403 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443696683404 TestSudokuVerifier FAIL
 EditAction 1443696692734 TestSudokuVerifier.java 2487 8 27 6
+UnitTestCaseAction 1443696694238 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443696694238 TestSudokuVerifier OK
+RefactoringAction 1443696806985 SudokuVerifier.java RENAME compare(int, int)=>boolean compareRow(int, int) METHOD
+EditAction 1443696874242 SudokuVerifier.java 1193 3 9 0
