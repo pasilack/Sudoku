@@ -12,3 +12,7 @@ RefactoringAction 1443689430424 TestSudokuVerifier.java RENAME testVerifyStringL
 RefactoringAction 1443689432939 TestSudokuVerifier.java RENAME testVerifyStringLength81()=>void testVerifyStringLength81Ch() METHOD
 RefactoringAction 1443689435952 TestSudokuVerifier.java RENAME testVerifyStringLength81Ch()=>void testVerifyStringLength81Characters() METHOD
 EditAction 1443689708585 SudokuVerifier.java 198 1 1 0
+RefactoringAction 1443690162424 TestSudokuVerifier.java RENAME import org.junit.Assert.*=>import org.junit.Assert.ass IMPORT
+RefactoringAction 1443690164441 TestSudokuVerifier.java REMOVE import org.junit.Assert.ass IMPORT
+RefactoringAction 1443690165453 TestSudokuVerifier.java ADD import org.junit.Assert.* IMPORT
+EditAction 1443690171848 TestSudokuVerifier.java 329 1 1 0
