@@ -17,6 +17,11 @@ public class SudokuVerifier {
 			}
 		}
 		
+		for(char c : candidateSolution.toCharArray()) {
+			if(!Character.isDigit(c)) {
+				return -1;
+			}
+		
 		return 1;
 	}
 }
