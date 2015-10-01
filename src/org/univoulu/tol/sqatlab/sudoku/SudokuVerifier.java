@@ -9,6 +9,14 @@ public class SudokuVerifier {
 		else if (candidateSolution.length() < 81) {
 			throw new LengthException("Solution string is too long");
 		} 
+		
+	
+		for(char c : candidateSolution.toCharArray()) {
+			if(c == ' ') {
+				return -1;
+			}
+		}
+		
 		return 1;
 	}
 }
