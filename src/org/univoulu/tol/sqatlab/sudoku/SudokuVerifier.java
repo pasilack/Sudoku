@@ -3,7 +3,16 @@ package org.univoulu.tol.sqatlab.sudoku;
 public class SudokuVerifier {
 
 	public int verify(String candidateSolution) {
-		// returns 1 if the candidate solution is correct
+		if (candidateSolution.length() > 81) {
+			throw new Exception();
+		}
 		return 1;
 	}
 }
+
+
+class MyOwnException extends Exception {
+	   public MyOwnException(String msg){
+	      super(msg);
+	   }
+	}

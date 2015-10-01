@@ -35,3 +35,6 @@ RefactoringAction 1443690617297 TestSudokuVerifier.java RENAME testVerifyStringL
 RefactoringAction 1443690779106 TestSudokuVerifier.java ADD void assertEquals() METHOD
 RefactoringAction 1443690785167 TestSudokuVerifier.java REMOVE assertEquals() METHOD
 EditAction 1443690871325 TestSudokuVerifier.java 828 3 7 2
+UnitTestCaseAction 1443690871670 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443690871670 TestSudokuVerifier FAIL
+EditAction 1443691265167 SudokuVerifier.java 336 2 3 0
