@@ -5,7 +5,10 @@ public class SudokuVerifier {
 	public int verify(String candidateSolution) throws LengthException{
 		if (candidateSolution.length() > 81) {
 			throw new LengthException("Solution string is too long");
-		}
+		} 
+		else if (candidateSolution.length() < 81) {
+			throw new LengthException("Solution string is too long");
+		} 
 		return 1;
 	}
 }
