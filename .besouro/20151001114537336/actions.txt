@@ -147,3 +147,16 @@ EditAction 1443694978228 SudokuVerifier.java 1577 2 5 0
 UnitTestCaseAction 1443694978576 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1443694978576 TestSudokuVerifier FAIL
 EditAction 1443695055281 SudokuVerifier.java 699 2 4 0
+UnitTestCaseAction 1443695058050 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443695058051 TestSudokuVerifier FAIL
+RefactoringAction 1443695585751 SudokuVerifier.java ADD boolean compare FIELD
+RefactoringAction 1443695589293 SudokuVerifier.java RENAME compare=>boolean compare() METHOD
+RefactoringAction 1443695600344 SudokuVerifier.java RENAME compare()=>boolean compare(char) METHOD
+RefactoringAction 1443695602856 SudokuVerifier.java RENAME compare(char)=>boolean compare(char, char) METHOD
+RefactoringAction 1443695604870 SudokuVerifier.java RENAME compare(char, char)=>boolean compare(char) METHOD
+RefactoringAction 1443695608885 SudokuVerifier.java RENAME compare(char)=>boolean compare(char, char) METHOD
+RefactoringAction 1443695698558 SudokuVerifier.java RENAME compare(char, char)=>boolean compare(char) METHOD
+RefactoringAction 1443695872096 SudokuVerifier.java RENAME compare(char, int)=>boolean compare(int, int) METHOD
+RefactoringAction 1443695912729 SudokuVerifier.java ADD string candidateSolution FIELD
+RefactoringAction 1443695930274 SudokuVerifier.java RENAME candidateSolution=>String cS FIELD
+EditAction 1443696070744 SudokuVerifier.java 1035 3 9 0
