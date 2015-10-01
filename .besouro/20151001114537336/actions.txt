@@ -97,3 +97,6 @@ RefactoringAction 1443692587521 TestSudokuVerifier.java RENAME testString=>void 
 RefactoringAction 1443692590539 TestSudokuVerifier.java RENAME testStringCont=>void testStringContainsDigits FIELD
 RefactoringAction 1443692592557 TestSudokuVerifier.java RENAME testStringContainsDigits=>void testStringContainsDigits() METHOD
 EditAction 1443692674179 TestSudokuVerifier.java 1852 6 19 4
+UnitTestCaseAction 1443692678616 TestSudokuVerifier.java OK
+UnitTestSessionAction 1443692678616 TestSudokuVerifier OK
+EditAction 1443692706924 TestSudokuVerifier.java 1852 6 19 4
