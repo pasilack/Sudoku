@@ -34,7 +34,7 @@ public class SudokuVerifier {
 	}
 	
 	private boolean compare(int c, int index){
-		for(int i = 1; i < 9-index; i++)
+		for(int i = 1; i < 10-index; i++)
 		{
 			if(cS.charAt(c) == cS.charAt(c+i))
 			{
