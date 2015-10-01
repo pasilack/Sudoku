@@ -81,5 +81,19 @@ public class TestSudokuVerifier {
 		assertEquals(-1, result);
 	}
 	
+	@Test
+	public void testStringContainsOnlyPositiveDigits(){
+		String characters81 = "-1736982-63a158947958724316825437b697915864f2346912758289643571573291684164875293";
+		int result = 0;
+		
+		try {
+			result = sV.verify(characters81);
+		}
+		catch (Exception e) {
+		}
+		
+		assertEquals(-1, result);
+	}
+	
 
 }

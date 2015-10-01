@@ -117,3 +117,7 @@ EditAction 1443693053848 TestSudokuVerifier.java 1852 6 19 4
 UnitTestCaseAction 1443693054160 TestSudokuVerifier.java OK
 UnitTestSessionAction 1443693054161 TestSudokuVerifier OK
 EditAction 1443693071214 TestSudokuVerifier.java 1852 6 19 4
+RefactoringAction 1443693089953 TestSudokuVerifier.java ADD void testStringContainsDigits()/2 METHOD
+RefactoringAction 1443693094473 TestSudokuVerifier.java RENAME testStringContainsDigits()/2=>void testStringContainsOnlyDigits() METHOD
+RefactoringAction 1443693096994 TestSudokuVerifier.java RENAME testStringContainsOnlyDigits()=>void testStringContainsOnlyPositiveDigits() METHOD
+EditAction 1443693111878 TestSudokuVerifier.java 2169 7 23 5
