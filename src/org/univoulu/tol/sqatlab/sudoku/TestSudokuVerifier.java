@@ -40,10 +40,10 @@ public class TestSudokuVerifier {
 	
 	@Test
 	public void testVerifyStringLength80Characters() {
-		String characters82 = "17369825632158947958724316825437169791586432346912758289643571573291684164875293"; 
+		String characters80 = "17369825632158947958724316825437169791586432346912758289643571573291684164875293"; 
 		boolean thrown = false;
 		try {
-			sV.verify(characters82);
+			sV.verify(characters80);
 		}
 		catch (Exception e) {
 			thrown = true;						

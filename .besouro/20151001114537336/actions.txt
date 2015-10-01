@@ -56,3 +56,6 @@ UnitTestSessionAction 1443691499894 TestSudokuVerifier OK
 RefactoringAction 1443691507983 TestSudokuVerifier.java ADD void testVerifyStringLength82Characters()/2 METHOD
 RefactoringAction 1443691514003 TestSudokuVerifier.java RENAME testVerifyStringLength82Characters()/2=>void testVerifyStringLength80Characters() METHOD
 EditAction 1443691520939 TestSudokuVerifier.java 1219 4 11 2
+UnitTestCaseAction 1443691521268 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443691521269 TestSudokuVerifier FAIL
+EditAction 1443691546843 TestSudokuVerifier.java 1219 4 11 2
