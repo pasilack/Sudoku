@@ -3,6 +3,7 @@ package org.univoulu.tol.sqatlab.sudoku;
 public class SudokuVerifier {
 
 	public int verify(String candidateSolution) throws LengthException{
+		
 		if (candidateSolution.length() > 81) {
 			throw new LengthException("Solution string is too long");
 		} 
@@ -10,7 +11,6 @@ public class SudokuVerifier {
 			throw new LengthException("Solution string is too long");
 		} 
 		
-	
 		for(char c : candidateSolution.toCharArray()) {
 			if(c == ' ') {
 				return -1;
