@@ -56,14 +56,15 @@ public class TestSudokuVerifier {
 	public void testStringHasNoEmptySpaces() {
 		String characters81emptyspaces = "4 736982563215894 95872431 825437169791586432346912758289643571573291684164875293"; 
 		boolean thrown = false;
+		int result = 0;
 		try {
-			sV.verify(characters81emptyspaces);
+			result = sV.verify(characters81emptyspaces);
 		}
 		catch (Exception e) {
 			thrown = true;	
 		}
 		
-		assertEquals(true, thrown);
+		assertEquals(-1, result);
 	}
 	
 

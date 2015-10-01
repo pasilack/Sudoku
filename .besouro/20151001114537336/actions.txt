@@ -79,3 +79,6 @@ RefactoringAction 1443691830165 TestSudokuVerifier.java RENAME testStringHasNoEm
 RefactoringAction 1443691882336 TestSudokuVerifier.java ADD String characters81 FIELD
 RefactoringAction 1443691911920 TestSudokuVerifier.java REMOVE characters81 FIELD
 EditAction 1443691958618 TestSudokuVerifier.java 1560 5 15 3
+UnitTestCaseAction 1443691958962 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1443691958962 TestSudokuVerifier FAIL
+EditAction 1443692075357 TestSudokuVerifier.java 1586 5 16 3
