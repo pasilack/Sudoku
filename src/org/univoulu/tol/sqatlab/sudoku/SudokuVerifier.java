@@ -34,3 +34,4 @@ class LengthException extends Exception {
 	      super(msg);
 	   }
 	}
+}
