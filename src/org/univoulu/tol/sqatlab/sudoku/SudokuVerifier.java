@@ -77,12 +77,26 @@ public class SudokuVerifier {
 	}
 	
 	private boolean compareSubGrid(int c) {
-		for(int i = 1; i < 3; i++)
+		for(int subgridRow = 1; subgridRow < 4; subgridRow++)
 		{
-			if(cS.charAt(c) == cS.charAt(c+i))
-			{
-				return true;
+			if(subgridRow == 1) {
+				for(int i = 1; i < 3; i++) {
+					if(cS.charAt(c) == cS.charAt(c+i))
+					{
+						return true;
+					}
+				}
 			}
+			
+			if(subgridRow == 2 || subgridRow == 3) {
+				for(int i = 0; i < 3; i++) {
+					if(cS.charAt(c) == cS.charAt(c+9*(subgridRow-1)+i))
+					{
+						return true;
+					}
+				}
+			}
+			
 		}
 		return false;
 	}
