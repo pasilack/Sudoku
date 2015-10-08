@@ -89,7 +89,7 @@ public class SudokuVerifier {
 			
 			if(subgridRow == 2 || subgridRow == 3) {
 				for(int i = 0; i < 3; i++) {
-					System.out.println("joo);
+					System.out.println("joo");
 					if(cS.charAt(c) == cS.charAt(c+9*(subgridRow-1)+i))
 					{
 						return true;
