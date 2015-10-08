@@ -1,0 +1,13 @@
+FileOpenedAction 1444283953171 TestSudokuVerifier.java 2495 8 27 6
+RefactoringAction 1444284119369 TestSudokuVerifier.java ADD void test FIELD
+RefactoringAction 1444284120906 TestSudokuVerifier.java RENAME test=>void testS FIELD
+RefactoringAction 1444284124466 TestSudokuVerifier.java RENAME testS=>void testString FIELD
+RefactoringAction 1444284128012 TestSudokuVerifier.java RENAME testString=>void testStringColu FIELD
+RefactoringAction 1444284135833 TestSudokuVerifier.java RENAME testStringColu=>void testStringColumn FIELD
+RefactoringAction 1444284138368 TestSudokuVerifier.java RENAME testStringColumn=>void testStringColumnCoin FIELD
+RefactoringAction 1444284141413 TestSudokuVerifier.java RENAME testStringColumnCoin=>void testStringColumnContains FIELD
+RefactoringAction 1444284143946 TestSudokuVerifier.java RENAME testStringColumnContains=>void testStringColumnContainsOly FIELD
+RefactoringAction 1444284147014 TestSudokuVerifier.java RENAME testStringColumnContainsOly=>void testStringColumnContainsOnly FIELD
+RefactoringAction 1444284152055 TestSudokuVerifier.java RENAME testStringColumnContainsOnly=>void testStringColumnContainsOnlyUniqueDigits FIELD
+RefactoringAction 1444284153105 TestSudokuVerifier.java RENAME testStringColumnContainsOnlyUniqueDigits=>void testStringColumnContainsOnlyUniqueDigits() METHOD
+EditAction 1444284247563 TestSudokuVerifier.java 2812 9 31 7

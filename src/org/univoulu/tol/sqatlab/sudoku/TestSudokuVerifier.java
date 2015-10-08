@@ -110,5 +110,18 @@ public class TestSudokuVerifier {
 		assertEquals(-3, result);
 	}
 	
+	@Test
+	public void testStringColumnContainsOnlyUniqueDigits(){
+		String characters81 = "417369825432158947958724316825437169791586432346912758289643571573291684164875293";
+		int result = 0;
+		
+		try {
+			result = sV.verify(characters81);
+		}
+		catch (Exception e) {
+		}
+		assertEquals(-4, result);
+	}
+	
 
 }
