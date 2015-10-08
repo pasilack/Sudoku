@@ -45,3 +45,9 @@ RefactoringAction 1444285093714 TestSudokuVerifier.java RENAME testSubGridContai
 RefactoringAction 1444285095781 TestSudokuVerifier.java RENAME testSubGridContainsOnly=>void testSubGridContainsOnlyUni FIELD
 RefactoringAction 1444285099321 TestSudokuVerifier.java RENAME testSubGridContainsOnlyUni=>void testSubGridContainsOnlyUniqueDigits() METHOD
 EditAction 1444285215629 TestSudokuVerifier.java 3127 10 35 8
+UnitTestCaseAction 1444285216350 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444285216351 TestSudokuVerifier FAIL
+RefactoringAction 1444285608496 SudokuVerifier.java ADD boolean compareColumn(int)/2 METHOD
+RefactoringAction 1444285614531 SudokuVerifier.java RENAME compareColumn(int)/2=>boolean compareSub(int) METHOD
+RefactoringAction 1444285616049 SudokuVerifier.java RENAME compareSub(int)=>boolean compareSubGrid(int) METHOD
+EditAction 1444285778588 SudokuVerifier.java 1822 5 15 0

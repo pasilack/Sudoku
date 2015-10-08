@@ -41,6 +41,16 @@ public class SudokuVerifier {
 			}
 		}
 		
+		for(int i = 0; i<76; i = i+3) {
+			System.out.println(i);
+			if(compareSubGrid(i)) {
+				return -2;
+			}
+			if(i == 6 || i == 33) {
+				i = i + 21;
+			}
+		}
+		
 		return 0;
 	}
 	
@@ -56,6 +66,17 @@ public class SudokuVerifier {
 	}
 	
 	private boolean compareColumn(int c) {
+		for(int i = 1; i < 10; i++)
+		{
+			if(cS.charAt(c) == cS.charAt(c+9*i))
+			{
+				return true;
+			}
+		}
+		return false;
+	}
+	
+	private boolean compareSubGrid(int c) {
 		for(int i = 1; i < 10; i++)
 		{
 			if(cS.charAt(c) == cS.charAt(c+9*i))
