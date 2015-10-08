@@ -20,19 +20,25 @@ public class SudokuVerifier {
 			}
 		}
 		
-		int index = 1;
+		int rowIndex = 1;
 		
 		for(int i = 0; i<80; i++) {
 			
 			if(i == 9 || i == 18 || i == 27 || i == 36 || i == 45 || i == 54 || i == 63 || i == 72) {
-				index = 1;
+				rowIndex = 1;
 			}
 			
-			if(compareRow(i ,index)) {
+			if(compareRow(i ,rowIndex)) {
 				return -3;
 			}
 			
-			index++;
+			rowIndex++;
+		}
+		
+		for(int i = 0; i < 9; i++) {
+			if(compareColumn(i)) {
+				return -4;
+			}
 		}
 		
 		return 1;
@@ -42,6 +48,17 @@ public class SudokuVerifier {
 		for(int i = 1; i < 10-index; i++)
 		{
 			if(cS.charAt(c) == cS.charAt(c+i))
+			{
+				return true;
+			}
+		}
+		return false;
+	}
+	
+	private boolean compareColumn(int c) {
+		for(int i = 0; i < 9; i++)
+		{
+			if(cS.charAt(c) == cS.charAt(c+9))
 			{
 				return true;
 			}
