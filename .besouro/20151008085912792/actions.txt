@@ -51,3 +51,6 @@ RefactoringAction 1444285608496 SudokuVerifier.java ADD boolean compareColumn(in
 RefactoringAction 1444285614531 SudokuVerifier.java RENAME compareColumn(int)/2=>boolean compareSub(int) METHOD
 RefactoringAction 1444285616049 SudokuVerifier.java RENAME compareSub(int)=>boolean compareSubGrid(int) METHOD
 EditAction 1444285778588 SudokuVerifier.java 1822 5 15 0
+UnitTestCaseAction 1444285779388 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444285779388 TestSudokuVerifier FAIL
+EditAction 1444285871725 SudokuVerifier.java 1819 5 15 0

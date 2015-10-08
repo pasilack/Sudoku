@@ -77,9 +77,9 @@ public class SudokuVerifier {
 	}
 	
 	private boolean compareSubGrid(int c) {
-		for(int i = 1; i < 10; i++)
+		for(int i = 1; i < 3; i++)
 		{
-			if(cS.charAt(c) == cS.charAt(c+9*i))
+			if(cS.charAt(c) == cS.charAt(c+i))
 			{
 				return true;
 			}
