@@ -122,7 +122,7 @@ public class TestSudokuVerifier {
 		}
 		assertEquals(-4, result);
 	}
-	/*
+	
 	@Test
 	public void testSubGridContainsOnlyUniqueDigits() {
 		String characters81 = "417369825642158937958724316825437169791586432346912758289643571573291684164875293";
@@ -135,6 +135,6 @@ public class TestSudokuVerifier {
 		}
 		assertEquals(-2, result);
 	}
-	*/
+	
 
 }
