@@ -42,7 +42,6 @@ public class SudokuVerifier {
 		}
 		
 		for(int i = 0; i<76; i = i+3) {
-			System.out.println(i);
 			if(compareSubGrid(i)) {
 				return -2;
 			}
@@ -90,6 +89,7 @@ public class SudokuVerifier {
 			
 			if(subgridRow == 2 || subgridRow == 3) {
 				for(int i = 0; i < 3; i++) {
+					System.out.println("joo);
 					if(cS.charAt(c) == cS.charAt(c+9*(subgridRow-1)+i))
 					{
 						return true;
