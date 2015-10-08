@@ -22,18 +22,18 @@ public class SudokuVerifier {
 		
 		int rowIndex = 1;
 		
-		for(int i = 0; i<80; i++) {
-			
-			if(i == 9 || i == 18 || i == 27 || i == 36 || i == 45 || i == 54 || i == 63 || i == 72) {
-				rowIndex = 1;
-			}
-			
-			if(compareRow(i ,rowIndex)) {
-				return -3;
-			}
-			
-			rowIndex++;
-		}
+//		for(int i = 0; i<80; i++) {
+//			
+//			if(i == 9 || i == 18 || i == 27 || i == 36 || i == 45 || i == 54 || i == 63 || i == 72) {
+//				rowIndex = 1;
+//			}
+//			
+//			if(compareRow(i ,rowIndex)) {
+//				return -3;
+//			}
+//			
+//			rowIndex++;
+//		}
 		
 		for(int i = 0; i < 9; i++) {
 			if(compareColumn(i)) {
