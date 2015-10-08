@@ -97,7 +97,7 @@ public class TestSudokuVerifier {
 	}
 	
 	@Test
-	public void testStringRowContainsOnlyUniqueDigits(){
+	public void testStringRowContainsOnlyUniqueDigits() {
 		String characters81 = "417379825632158947958724316825437169791586432346912758289643571573291684164875293";
 		int result = 0;
 		
@@ -111,7 +111,7 @@ public class TestSudokuVerifier {
 	}
 	
 	@Test
-	public void testStringColumnContainsOnlyUniqueDigits(){
+	public void testStringColumnContainsOnlyUniqueDigits() {
 		String characters81 = "417369825632158947958724316825437169791586432346912758289643571573291684461875293";
 		int result = 0;
 		
@@ -121,6 +121,19 @@ public class TestSudokuVerifier {
 		catch (Exception e) {
 		}
 		assertEquals(-4, result);
+	}
+	
+	@Test
+	public void testSubGridContainsOnlyUniqueDigits() {
+		String characters81 = "417369825642158937958724316825437169791586432346912758289643571573291684164875293";
+		int result = 0;
+		
+		try {
+			result = sV.verify(characters81);
+		}
+		catch (Exception e) {
+		}
+		assertEquals(-2, result);
 	}
 	
 

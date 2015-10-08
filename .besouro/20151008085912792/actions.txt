@@ -31,3 +31,17 @@ UnitTestCaseAction 1444284895396 TestSudokuVerifier.java OK
 UnitTestSessionAction 1444284895397 TestSudokuVerifier OK
 EditAction 1444285006547 SudokuVerifier.java 1472 4 12 0
 EditAction 1444285006891 TestSudokuVerifier.java 2812 9 31 7
+UnitTestCaseAction 1444285007536 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444285007537 TestSudokuVerifier OK
+RefactoringAction 1444285061548 TestSudokuVerifier.java ADD void test FIELD
+RefactoringAction 1444285074567 TestSudokuVerifier.java RENAME test=>void testsub FIELD
+RefactoringAction 1444285077085 TestSudokuVerifier.java RENAME testsub=>void testS FIELD
+RefactoringAction 1444285079106 TestSudokuVerifier.java RENAME testS=>void testSubG FIELD
+RefactoringAction 1444285082134 TestSudokuVerifier.java RENAME testSubG=>void testSubGri FIELD
+RefactoringAction 1444285083151 TestSudokuVerifier.java RENAME testSubGri=>void testSubGrid FIELD
+RefactoringAction 1444285085666 TestSudokuVerifier.java RENAME testSubGrid=>void testSubGridContain FIELD
+RefactoringAction 1444285091197 TestSudokuVerifier.java RENAME testSubGridContain=>void testSubGridContains FIELD
+RefactoringAction 1444285093714 TestSudokuVerifier.java RENAME testSubGridContains=>void testSubGridContainsOnly FIELD
+RefactoringAction 1444285095781 TestSudokuVerifier.java RENAME testSubGridContainsOnly=>void testSubGridContainsOnlyUni FIELD
+RefactoringAction 1444285099321 TestSudokuVerifier.java RENAME testSubGridContainsOnlyUni=>void testSubGridContainsOnlyUniqueDigits() METHOD
+EditAction 1444285215629 TestSudokuVerifier.java 3127 10 35 8
