@@ -1,10 +1,8 @@
 package org.univoulu.tol.sqatlab.sudoku;
-import java.util.logging.*;
+
 public class SudokuVerifier {
 	
 	private String cS;
-	
-	private static final Logger LOGGER = Logger.getLogger(SudokuVerifier.class.getName());
 	
 	public int verify(String candidateSolution) throws LengthException{
 		cS = candidateSolution;
@@ -91,7 +89,6 @@ public class SudokuVerifier {
 			
 			if(subgridRow == 2 || subgridRow == 3) {
 				for(int i = 0; i < 3; i++) {
-					LOGGER.info("Logger Name: " + c+9*(subgridRow-1)+i);
 					if(cS.charAt(c) == cS.charAt(c+9*(subgridRow-1)+i))
 					{
 						return true;
