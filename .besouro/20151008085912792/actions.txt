@@ -57,3 +57,7 @@ EditAction 1444285871725 SudokuVerifier.java 1819 5 15 0
 UnitTestCaseAction 1444285872598 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1444285872600 TestSudokuVerifier FAIL
 EditAction 1444286582046 SudokuVerifier.java 2123 5 15 0
+UnitTestCaseAction 1444286583113 TestSudokuVerifier.java FAIL
+UnitTestSessionAction 1444286583114 TestSudokuVerifier FAIL
+RefactoringAction 1444286657643 TestSudokuVerifier.java REMOVE testSubGridContainsOnlyUniqueDigits() METHOD
+EditAction 1444286663200 TestSudokuVerifier.java 3131 9 31 7
