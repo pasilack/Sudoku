@@ -21,3 +21,6 @@ RefactoringAction 1444284601643 SudokuVerifier.java RENAME compare=>boolean comp
 RefactoringAction 1444284606682 SudokuVerifier.java RENAME compareC=>boolean compareColumn FIELD
 RefactoringAction 1444284611214 SudokuVerifier.java RENAME compareColumn=>boolean compareColumn(int) METHOD
 EditAction 1444284766945 SudokuVerifier.java 1469 4 12 0
+UnitTestCaseAction 1444284767629 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444284767631 TestSudokuVerifier OK
+EditAction 1444284830476 TestSudokuVerifier.java 2812 9 31 7
