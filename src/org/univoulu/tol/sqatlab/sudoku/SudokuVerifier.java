@@ -41,7 +41,7 @@ public class SudokuVerifier {
 			}
 		}
 		
-		return 1;
+		return 0;
 	}
 	
 	private boolean compareRow(int c, int index){
