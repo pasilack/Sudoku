@@ -80,3 +80,10 @@ UnitTestCaseAction 1444287165769 TestSudokuVerifier.java FAIL
 UnitTestSessionAction 1444287165770 TestSudokuVerifier FAIL
 RefactoringAction 1444287176187 TestSudokuVerifier.java REMOVE testSubGridContainsOnlyUniqueDigits() METHOD
 EditAction 1444287183182 TestSudokuVerifier.java 3131 9 31 7
+UnitTestCaseAction 1444287183803 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444287183803 TestSudokuVerifier OK
+UnitTestCaseAction 1444287191039 TestSudokuVerifier.java OK
+UnitTestSessionAction 1444287191040 TestSudokuVerifier OK
+RefactoringAction 1444287507078 SudokuVerifier.java ADD import java.util.logging.* IMPORT
+RefactoringAction 1444287714670 SudokuVerifier.java ADD Logger LOGGER FIELD
+EditAction 1444287835779 SudokuVerifier.java 2275 5 15 0
